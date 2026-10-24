@@ -1,0 +1,823 @@
+#EXTM3U url-tvg="http://143.47.50.252:5000/getEPG"
+#EXTINF:-1 tvg-name="La 1" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="La1.es" tvg-chno="1" tvg-country="ES" group-title="01 📺 Generalistas",La 1
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
+#EXTINF:-1 tvg-name="La 2" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="La2.es" tvg-chno="2" tvg-country="ES" group-title="01 📺 Generalistas",La 2
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
+#EXTINF:-1 tvg-name="24h" tvg-logo="https://i.imgur.com/ZKR2jKr.png" tvg-id="24h.es" tvg-chno="7" tvg-country="ES" group-title="11 📰 Noticias",24h
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 tvg-name="tdp" tvg-logo="https://i.imgur.com/HliegRJ.png" tvg-id="tdp.es" tvg-chno="8" tvg-country="ES" group-title="99 📦 Otros",tdp
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
+#EXTINF:-1 tvg-name="clan" tvg-logo="https://i.imgur.com/38xIfQ3.png" tvg-id="clan.es" tvg-chno="9" tvg-country="ES" group-title="10 🧒 Infantil",clan
+https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8
+#EXTINF:-1 tvg-name="Atreseries" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/atreseries-es.png" tvg-id="Atreseries.es" tvg-chno="14" tvg-country="ES" group-title="08 📺 Series",Atreseries Ⓢ
+http://181.78.109.48:8000/play/a00l/index.m3u8
+#EXTINF:-1 tvg-name="RNE para todos" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" tvg-id="RNE.es" tvg-chno="21" tvg-country="ES" group-title="99 📦 Otros",RNE para todos
+https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8
+#EXTINF:-1 tvg-name="euronews" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/euro-news-int.png" tvg-id="Euronews.es" tvg-chno="22" tvg-country="ES" group-title="11 📰 Noticias",euronews
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+#EXTINF:-1 tvg-name="El País" tvg-logo="https://graph.facebook.com/elpais/picture?width=200&height=200" tvg-id="ElPaisTV.es" tvg-chno="23" tvg-country="ES" group-title="99 📦 Otros",El País
+https://d2epgk1fomaa1g.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9n8y4tw0bk3an/live/fast-channel-el-pais/fast-channel-el-pais.m3u8
+#EXTINF:-1 tvg-name="Negocios" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" tvg-id="NegociosTV.es" tvg-chno="24" tvg-country="ES" group-title="99 📦 Otros",Negocios
+https://streaming013.gestec-video.com/hls/negociostv.m3u8
+#EXTINF:-1 tvg-name="BOM Cine" tvg-logo="https://i.imgur.com/cqhofMU.png" tvg-id="BomCine.es" tvg-chno="26" tvg-country="ES" group-title="07 🎬 Cine",BOM Cine
+https://tsw.streamingwebtv24.it:1936/inteccdn3/inteccdn3/playlist.m3u8
+#EXTINF:-1 tvg-name="Antena 3" tvg-logo="https://i.imgur.com/j3SP4BS.png" tvg-id="Antena3.es" tvg-chno="3" tvg-country="ES" group-title="01 📺 Generalistas",Antena 3
+http://177.10.184.193:8000/play/a06a/index.m3u8
+#EXTINF:-1 tvg-name="Cuatro" tvg-logo="https://i.imgur.com/zROxNap.png" tvg-id="Cuatro.es" tvg-chno="4" tvg-country="ES" group-title="01 📺 Generalistas",Cuatro
+https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_1.m3u8
+#EXTINF:-1 tvg-name="Telecinco" tvg-logo="https://i.imgur.com/JECsKdk.png" tvg-id="Telecinco.es" tvg-chno="5" tvg-country="ES" group-title="01 📺 Generalistas",Telecinco
+https://livehlsdai-i.akamaihd.net/hls/live/571640/telecinco/bitrate_1.m3u8
+#EXTINF:-1 tvg-name="La Sexta" tvg-logo="https://i.imgur.com/b59MxgM.png" tvg-id="LaSexta.es" tvg-chno="6" tvg-country="ES" group-title="01 📺 Generalistas",La Sexta
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+#EXTINF:-1 tvg-name="Neox" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/neox-es.png" tvg-id="Neox.es" tvg-chno="11" tvg-country="ES" group-title="99 📦 Otros",Neox Ⓢ
+http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
+#EXTINF:-1 tvg-name="Mega" tvg-logo="https://i.imgur.com/Udrt2eK.png" tvg-id="Mega.es" tvg-chno="13" tvg-country="ES" group-title="99 📦 Otros",Mega Ⓢ
+http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
+#EXTINF:-1 tvg-name="FDF" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/fdf-es.png" tvg-id="FactoriadeFiccion.es" tvg-chno="15" tvg-country="ES" group-title="99 📦 Otros",FDF
+https://mdslivehls-i.akamaihd.net/hls/live/571650/fdf/bitrate_1.m3u8
+#EXTINF:-1 tvg-name="Boing" tvg-logo="https://i.imgur.com/nUYuCAP.png" tvg-id="Boing.es" tvg-chno="18" tvg-country="ES" group-title="10 🧒 Infantil",Boing
+https://mdslivehls-i.akamaihd.net/hls/live/571647/boing/bitrate_1.m3u8
+#EXTINF:-1 tvg-name="Telemadrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/500px-TeleMadrid.svg.png" tvg-id="Telemadrid.es" tvg-chno="1" tvg-country="ES" group-title="01 📺 Generalistas",Telemadrid
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-name="La Otra" tvg-logo="https://i.imgur.com/W1UZyXH.png" tvg-id="LaOtra.es" tvg-chno="2" tvg-country="ES" group-title="99 📦 Otros",La Otra
+https://laotra-1-23-secure2.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-name="Canal Sur Andalucía" tvg-logo="https://i.imgur.com/WcVOXPr.png" tvg-id="CanalSurAndalucia.es" tvg-chno="3" tvg-country="ES" group-title="01 📺 Generalistas",Canal Sur Andalucía
+https://d4oe4cnrgi9c9.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-name="La 8 Mediterráneo" tvg-logo="https://graph.facebook.com/la8mediterraneo/picture?width=200&height=200" tvg-id="La8Mediterraneo.es" tvg-chno="5" tvg-country="ES" group-title="99 📦 Otros",La 8 Mediterráneo
+https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
+#EXTINF:-1 tvg-name="Televisión Canaria" tvg-logo="https://i.imgur.com/68LNS8e.png" tvg-id="TVCanaria.es" tvg-chno="6" tvg-country="ES" group-title="99 📦 Otros",Televisión Canaria Ⓨ
+https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="IB3 Global" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/ib3-es.png" tvg-id="IB3.es" tvg-chno="7" tvg-country="ES" group-title="99 📦 Otros",IB3 Global Ⓨ
+https://www.youtube.com/c/ib3/live
+#EXTINF:-1 tvg-name="Canal Extremadura" tvg-logo="https://i.imgur.com/xBeywIA.png" tvg-id="CanalExtremadura.es" tvg-chno="8" tvg-country="ES" group-title="99 📦 Otros",Canal Extremadura
+https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/continuous/9be76611-d2cd-474d-bf19-ef702ba31b02/index.m3u8
+#EXTINF:-1 tvg-name="Aragón TV" tvg-logo="https://i.imgur.com/8H3Q07b.png" tvg-id="AragonTV.es" tvg-chno="9" tvg-country="ES" group-title="99 📦 Otros",Aragón TV Ⓢ
+https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+#EXTINF:-1 tvg-name="ETB1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/500px-ETB1_2022_logo.svg.png" tvg-id="ETB1.es" tvg-chno="10" tvg-country="ES" group-title="99 📦 Otros",ETB1
+https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
+#EXTINF:-1 tvg-name="ETB2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ETB2_2022_logo.svg/500px-ETB2_2022_logo.svg.png" tvg-id="ETB2.es" tvg-chno="11" tvg-country="ES" group-title="99 📦 Otros",ETB2
+https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
+#EXTINF:-1 tvg-name="TV3Cat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/500px-TV3CAT.svg.png" tvg-id="TV3CAT.es" tvg-chno="12" tvg-country="ES" group-title="99 📦 Otros",TV3Cat Ⓖ
+https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
+#EXTINF:-1 tvg-name="3/24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/3-24-es.png" tvg-id="324.es" tvg-chno="13" tvg-country="ES" group-title="99 📦 Otros",3/24
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+#EXTINF:-1 tvg-name="Bon Dia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Logo_Bon_Dia_TV.png" tvg-id="BonDiaTV.es" tvg-chno="14" tvg-country="ES" group-title="99 📦 Otros",Bon Dia
+https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
+#EXTINF:-1 tvg-name="SX3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SX3_logo.svg/1920px-SX3_logo.svg.png" tvg-id="SX3.es" tvg-chno="15" tvg-country="ES" group-title="99 📦 Otros",SX3 Ⓖ
+https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
+#EXTINF:-1 tvg-name="El 33" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/el-33-es.png" tvg-id="El33.es" tvg-chno="15" tvg-country="ES" group-title="99 📦 Otros",El 33 Ⓖ
+https://directes-tv-cat.3catdirectes.cat/live-origin/c33-super3-hls/master.m3u8
+#EXTINF:-1 tvg-name="Esport3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/1280px-Esport3.svg.png" tvg-id="Esport3.es" tvg-chno="15" tvg-country="ES" group-title="06 🎾 Deportes",Esport3 Ⓖ
+https://directes-tv-es.3catdirectes.cat/live-origin/esport3-hls/master.m3u8
+#EXTINF:-1 tvg-name="À Punt TV" tvg-logo="https://i.imgur.com/M88LoNl.png" tvg-id="APunt.es" tvg-chno="16" tvg-country="ES" group-title="99 📦 Otros",À Punt TV
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="7 Región de Murcia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/120px-La_7_logo.svg.png" tvg-id="La7.es" tvg-chno="17" tvg-country="ES" group-title="99 📦 Otros",7 Región de Murcia Ⓢ
+https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal 4 Tenerife" tvg-logo="https://i.imgur.com/Egymir4.png" tvg-id="Canal4Tenerife.es" tvg-chno="17" tvg-country="ES" group-title="99 📦 Otros",Canal 4 Tenerife
+https://videoserver.tmcreativos.com:19360/hkbpjryheu/hkbpjryheu.m3u8
+#EXTINF:-1 tvg-name="La 1 (Catalunya)" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="La1Catalunya.es" tvg-chno="18" tvg-country="ES" group-title="01 📺 Generalistas",La 1 (Catalunya)
+https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main_dvr.m3u8
+#EXTINF:-1 tvg-name="La 1 (Canarias)" tvg-logo="https://i.imgur.com/NbesiPn.png" tvg-id="La1Canarias.es" tvg-chno="19" tvg-country="ES" group-title="01 📺 Generalistas",La 1 (Canarias)
+https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main_dvr.m3u8
+#EXTINF:-1 tvg-name="La 2 (Catalunya)" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="La2Catalunya.es" tvg-chno="20" tvg-country="ES" group-title="01 📺 Generalistas",La 2 (Catalunya)
+https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8
+#EXTINF:-1 tvg-name="La 2 (Canarias)" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="La2Canarias.es" tvg-chno="21" tvg-country="ES" group-title="01 📺 Generalistas",La 2 (Canarias)
+https://ztnr.rtve.es/ztnr/5468585.m3u8
+# Playlist generata da Rakuten TV Player
+# Data: 21/09/2026, 11:44:25
+# Nazione: ES
+# Totale canali: 125
+#EXTINF:-1,Golf | PGA Tour Champions Golf Mitsubishi Electric Championship at Hualalai group-title="02 ⚽ Fútbol", Second Round (00:00)
+https://easyproxy-latest-9tiz.onrender.com/proxy/manifest.m3u8?url=https%3A%2F%2Fdlive.sx%2Fwatch.php%3Fid%3D318
+#EXTINF:-1 group-title="99 📦 Otros",Cycling | Tour Down Under | Stage 4 Men | Brighton – Willunga Hill (176km) (00:30)
+https://easyproxy-latest-9tiz.onrender.com/proxy/manifest.m3u8?url=https%3A%2F%2Fdlive.sx%2Fwatch.php%3Fid%3D418
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 1 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 1 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894989&extension=ts&play_token=ygMz5F7X8a
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 2 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 2 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894990&extension=ts&play_token=TDAyCECzcV
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 3 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 3 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894991&extension=ts&play_token=Ag8ZsRdG9B
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 4 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 4 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894992&extension=ts&play_token=5JPezLz6l2
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 5 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 5 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894993&extension=ts&play_token=7fzOE9SdxH
+#EXTINF:-1 tvg-id="" tvg-name="┃UCL┃ M+ LIGA DE CAMPEONES 6 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ChampionsLeague.png" group-title="04 ⭐ Movistar+",┃UCL┃ M+ LIGA DE CAMPEONES 6 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=894994&extension=ts&play_token=Zni50zvdC4
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 1 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 1 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745110&extension=ts&play_token=6S42gXo4bK
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 2 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 2 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745111&extension=ts&play_token=gDqrN4Hmyv
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 3 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 3 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745112&extension=ts&play_token=ixeuOUJBjI
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 4 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 4 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745113&extension=ts&play_token=eqsi3F6e0o
+#EXTINF:-1 tvg-id="" tvg-name="┃F1 TV┃ F1 TV PRO [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/F1HD.png" group-title="05 🏎️ Motor",┃F1 TV┃ F1 TV PRO [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1160325&extension=ts&play_token=8aIAWG2gr3
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 10 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 10 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935636&extension=ts&play_token=W4GP4VkwsS
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 11 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 11 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935635&extension=ts&play_token=B2u1PL9O35
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 12 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 12 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935634&extension=ts&play_token=LSHmQtXlIR
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 13 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 13 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935633&extension=ts&play_token=bloOuB4ajx
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 14 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 14 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935632&extension=ts&play_token=5GihdqGbqT
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 15 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 15 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935631&extension=ts&play_token=GyKjR9tm7P
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 16 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 16 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935630&extension=ts&play_token=21nGZRFZbH
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 3 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 3 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935643&extension=ts&play_token=OUoTjCmPAP
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 2 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935644&extension=ts&play_token=YTYfR3upxu
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 4 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 4 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935642&extension=ts&play_token=B1xKWPvEyc
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 7 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 7 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935639&extension=ts&play_token=YZXn4a7HgU
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 8 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 8 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935638&extension=ts&play_token=lEh6Hy4SXo
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 5 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 5 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935641&extension=ts&play_token=20Cfc8MWrw
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 9 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 9 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935637&extension=ts&play_token=lw92HKmMJw
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 6 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 6 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935640&extension=ts&play_token=cxJXQySQq2
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS INFO HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS INFO HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935646&extension=ts&play_token=ogGZGT5sII
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ ESTRENOS 1 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/USA/M+ ESTRENOS/M+ ESTRENOS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS 1 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=935645&extension=ts&play_token=KNExTG3Kc8
+#EXTINF:-1 tvg-id="movistardeportes.es" tvg-name="┃ES┃ M+ DEPORTES HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUSDEPORTES.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ DEPORTES HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897428&extension=ts&play_token=ekh1icEsLi
+#EXTINF:-1 tvg-id="vamos.es" tvg-name="┃ES┃ M+ #VAMOS HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Vamos_por_Movistar_Plus+_2023_Logo.svg.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ #VAMOS HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897398&extension=ts&play_token=4amQ5nUmqX
+#EXTINF:-1 tvg-id="vamos.es" tvg-name="┃ES┃ M+ #VAMOS" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Vamos_por_Movistar_Plus+_2023_Logo.svg.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ #VAMOS
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897399&extension=ts&play_token=1UE341AbQK
+#EXTINF:-1 tvg-id="Movistar Plus+ HD" tvg-name="┃ES┃ M+ PLUS+" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ PLUS+
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897405&extension=ts&play_token=Fp929oulUU
+#EXTINF:-1 tvg-id="Movistar Plus+ 2 HD" tvg-name="┃ES┃ M+ PLUS+ 2" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ PLUS+ 2
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897408&extension=ts&play_token=VZiQ8oVc0u
+#EXTINF:-1 tvg-id="Movistar Plus+ 2 HD" tvg-name="┃ES┃ M+ PLUS+ 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ PLUS+ 2 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897407&extension=ts&play_token=rwbFCMjUGf
+#EXTINF:-1 tvg-id="Movistar Plus+ HD" tvg-name="┃ES┃ M+ PLUS+ HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ PLUS+ HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897404&extension=ts&play_token=Qgjqz1cXqU
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ SUPERCOPA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M+ SUPERCOPA.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ SUPERCOPA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=1009055&extension=ts&play_token=9aTGsCa1rk
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ M+ SUPERCOPA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/M+ SUPERCOPA.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ SUPERCOPA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=1009057&extension=ts&play_token=WNFTodbCI7
+#EXTINF:-1 tvg-id="movistaraccion.es" tvg-name="┃ES┃ M+ ACCION" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ACCION
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895838&extension=ts&play_token=463zmghPnL
+#EXTINF:-1 tvg-id="movistaraccion.es" tvg-name="┃ES┃ M+ ACCION HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUS.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ACCION HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895837&extension=ts&play_token=zGhBfYpGO7
+#EXTINF:-1 tvg-id="movistardcine.es" tvg-name="┃ES┃ M+ CINE Ñ" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUSCINE.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ CINE Ñ
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895850&extension=ts&play_token=DeFidgLVWW
+#EXTINF:-1 tvg-id="M+ Documentales HD" tvg-name="┃ES┃ M+ DOCUMENTALES" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Docimentales por M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ DOCUMENTALES
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897258&extension=ts&play_token=JF0cgzoh9k
+#EXTINF:-1 tvg-id="M+ Documentales HD" tvg-name="┃ES┃ M+ DOCUMENTALES HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Docimentales por M plus.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ DOCUMENTALES HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897257&extension=ts&play_token=YKMBGwJGMh
+#EXTINF:-1 tvg-id="dcineespanol.es" tvg-name="┃ES┃ M+ ESTRENOS" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Estrenos_por_Movistar_Plus+_2022_logo.svg.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ESTRENOS
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895848&extension=ts&play_token=uuf4rbtKDY
+#EXTINF:-1 tvg-id="mega.es" tvg-name="┃ES┃ MEGA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MEGA.png" group-title="99 📦 Otros",┃ES┃ MEGA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897214&extension=ts&play_token=PEPiBDxTai
+#EXTINF:-1 tvg-id="mega.es" tvg-name="┃ES┃ MEGA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MEGA.png" group-title="99 📦 Otros",┃ES┃ MEGA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897213&extension=ts&play_token=WXBn7qyhIL
+#EXTINF:-1 tvg-id="M+ Originales HD" tvg-name="┃ES┃ M+ ORIGINALES" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUSMUSICA.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ORIGINALES
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895844&extension=ts&play_token=zTxYBKbvi0
+#EXTINF:-1 tvg-id="M+ Originales HD" tvg-name="┃ES┃ M+ ORIGINALES HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/MPLUSMUSICA.png" group-title="04 ⭐ Movistar+",┃ES┃ M+ ORIGINALES HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895843&extension=ts&play_token=VgFH0AGvQE
+#EXTINF:-1 tvg-id="boing.es" tvg-name="┃ES┃ BOING" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Boing_2020.svg.png" group-title="10 🧒 Infantil",┃ES┃ BOING
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897395&extension=ts&play_token=jKaGNL0hrU
+#EXTINF:-1 tvg-id="BOM Cine" tvg-name="┃ES┃ BOM CINE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/BOMCINE.png" group-title="07 🎬 Cine",┃ES┃ BOM CINE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895874&extension=ts&play_token=eKcV1jKa7a
+#EXTINF:-1 tvg-id="BOM Cine" tvg-name="┃ES┃ BOM CINE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/BOMCINE.png" group-title="07 🎬 Cine",┃ES┃ BOM CINE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895875&extension=ts&play_token=u9Gd3Wdkmk
+#EXTINF:-1 tvg-id="BuenViaje" tvg-name="┃ES┃ BUENVIAJE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBUENVIAAJE!.png" group-title="99 📦 Otros",┃ES┃ BUENVIAJE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897217&extension=ts&play_token=23FNV2dto9
+#EXTINF:-1 tvg-id="BuenViaje" tvg-name="┃ES┃ BUENVIAJE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBUENVIAAJE!.png" group-title="99 📦 Otros",┃ES┃ BUENVIAJE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897216&extension=ts&play_token=LP4Cws9REW
+#EXTINF:-1 tvg-id="calle13.es" tvg-name="┃ES┃ CALLE 13" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Calle13_logo.svg.png" group-title="99 📦 Otros",┃ES┃ CALLE 13
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895935&extension=ts&play_token=XSCQvOuwzX
+#EXTINF:-1 tvg-id="calle13.es" tvg-name="┃ES┃ CALLE 13 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Calle13_logo.svg.png" group-title="99 📦 Otros",┃ES┃ CALLE 13 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895934&extension=ts&play_token=WPk5R0cq2F
+#EXTINF:-1 tvg-id="canalcocina.es" tvg-name="┃ES┃ CANAL COCINA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/COCINA.png" group-title="99 📦 Otros",┃ES┃ CANAL COCINA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897221&extension=ts&play_token=zn5sialKd4
+#EXTINF:-1 tvg-id="canalcocina.es" tvg-name="┃ES┃ CANAL COCINA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/COCINA.png" group-title="99 📦 Otros",┃ES┃ CANAL COCINA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897220&extension=ts&play_token=zCexcibN4o
+#EXTINF:-1 tvg-id="Decasa" tvg-name="┃ES┃ CANAL DECASA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/canal-decasa-logo-vector.png" group-title="99 📦 Otros",┃ES┃ CANAL DECASA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897225&extension=ts&play_token=2lq1w5omYO
+#EXTINF:-1 tvg-id="Decasa" tvg-name="┃ES┃ CANAL DECASA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/canal-decasa-logo-vector.png" group-title="99 📦 Otros",┃ES┃ CANAL DECASA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897224&extension=ts&play_token=UuQ7jwp93u
+#EXTINF:-1 tvg-id="Canal Sur Andalucía" tvg-name="┃ES┃ CANAL SUR ANDALUCIA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/CANALSUR.png" group-title="01 📺 Generalistas",┃ES┃ CANAL SUR ANDALUCIA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=568935&extension=ts&play_token=IkOzkDmeGU
+#EXTINF:-1 tvg-id="Cazavisión" tvg-name="┃ES┃ CAZAVISION HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/cazavision plus.png" group-title="99 📦 Otros",┃ES┃ CAZAVISION HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897230&extension=ts&play_token=OzeRW2cLvr
+#EXTINF:-1 tvg-id="Cazavisión" tvg-name="┃ES┃ CAZAVISION" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/cazavision plus.png" group-title="99 📦 Otros",┃ES┃ CAZAVISION
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897231&extension=ts&play_token=w5hyFzTFgU
+#EXTINF:-1 tvg-id="clantve.es" tvg-name="┃ES┃ CLAN TVE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Clan_TVE_logo.svg.png" group-title="10 🧒 Infantil",┃ES┃ CLAN TVE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897383&extension=ts&play_token=clcNZ5ETYK
+#EXTINF:-1 tvg-id="clantve.es" tvg-name="┃ES┃ CLAN TVE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Clan_TVE_logo.svg.png" group-title="10 🧒 Infantil",┃ES┃ CLAN TVE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897384&extension=ts&play_token=l1OFU75bwl
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ CMT HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/CMT.png" group-title="99 📦 Otros",┃ES┃ CMT HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895810&extension=ts&play_token=JFU6BqfpLp
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ CMT" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/CMT.png" group-title="99 📦 Otros",┃ES┃ CMT
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895811&extension=ts&play_token=j7CI6KPSde
+#EXTINF:-1 tvg-id="cuatro.es" tvg-name="┃ES┃ CUATRO" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/CUATRO.png" group-title="01 📺 Generalistas",┃ES┃ CUATRO
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895546&extension=ts&play_token=arjGDmqs3H
+#EXTINF:-1 tvg-id="Cubavisión Internacional HD" tvg-name="┃ES┃ CUBAVISION" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/earth.png" group-title="99 📦 Otros",┃ES┃ CUBAVISION
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852380&extension=ts&play_token=fdLqPKS9KX
+#EXTINF:-1 tvg-id="dark.es" tvg-name="┃ES┃ DARK" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/DARK.png" group-title="99 📦 Otros",┃ES┃ DARK
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895879&extension=ts&play_token=N6U0I9GSDR
+#EXTINF:-1 tvg-id="energy.es" tvg-name="┃ES┃ ENERGY" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/ENERGY.png" group-title="99 📦 Otros",┃ES┃ ENERGY
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895922&extension=ts&play_token=M8RELVstYc
+#EXTINF:-1 tvg-id="energy.es" tvg-name="┃ES┃ ENERGY HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/ENERGY.png" group-title="99 📦 Otros",┃ES┃ ENERGY HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895921&extension=ts&play_token=iKQctknEGo
+#EXTINF:-1 tvg-id="Enfamilia" tvg-name="┃ES┃ ENFAMILIA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Enfamiiia.png" group-title="99 📦 Otros",┃ES┃ ENFAMILIA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896314&extension=ts&play_token=o88Jg9mOca
+#EXTINF:-1 tvg-id="DBike" tvg-name="┃ES┃ DBIKE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/D Bike TV Channel.png" group-title="99 📦 Otros",┃ES┃ DBIKE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897442&extension=ts&play_token=nrfVOhrSDA
+#EXTINF:-1 tvg-id="DBike" tvg-name="┃ES┃ DBIKE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/D Bike TV Channel.png" group-title="99 📦 Otros",┃ES┃ DBIKE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897441&extension=ts&play_token=wWhYZxAhHu
+#EXTINF:-1 tvg-id="divinity.es" tvg-name="┃ES┃ DIVINITY" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Divinity.svg.png" group-title="99 📦 Otros",┃ES┃ DIVINITY
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896291&extension=ts&play_token=SKsgaIlQ1R
+#EXTINF:-1 tvg-id="divinity.es" tvg-name="┃ES┃ DIVINITY HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Divinity.svg.png" group-title="99 📦 Otros",┃ES┃ DIVINITY HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896290&extension=ts&play_token=oCC0Z6fFgI
+#EXTINF:-1 tvg-id="dkiss.es" tvg-name="┃ES┃ DKISS HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/dkiss-tv8157.logowik.png" group-title="99 📦 Otros",┃ES┃ DKISS HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896295&extension=ts&play_token=pBxq95JiGv
+#EXTINF:-1 tvg-id="dmax.es" tvg-name="┃ES┃ DMAX HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/DMax_Espa%C3%B1a.svg.png" group-title="99 📦 Otros",┃ES┃ DMAX HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897272&extension=ts&play_token=z2vsqRw4xm
+#EXTINF:-1 tvg-id="dreamworks.es" tvg-name="┃ES┃ DREAMWORKS HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/DreamWorks_Channel_Logo.svg.png" group-title="99 📦 Otros",┃ES┃ DREAMWORKS HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897388&extension=ts&play_token=iEfSiddk1n
+#EXTINF:-1 tvg-id="El Hormiguero" tvg-name="┃ES┃ EL HORMIGUERO HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ EL HORMIGUERO HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897473&extension=ts&play_token=C991uzyEbg
+#EXTINF:-1 tvg-id="El Hormiguero" tvg-name="┃ES┃ EL HORMIGUERO" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ EL HORMIGUERO
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897474&extension=ts&play_token=MgTL1iRNlT
+#EXTINF:-1 tvg-id="eltorotv.es" tvg-name="┃ES┃ EL TORO TV HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Eltorotv.png" group-title="99 📦 Otros",┃ES┃ EL TORO TV HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852386&extension=ts&play_token=mKDw5WTZKD
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ ESPORT3" tvg-logo="http://picon.tivi-ott.net:25461/picon/NEDERLAND/ESPORT3.png" group-title="06 🎾 Deportes",┃ES┃ ESPORT3
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=1006172&extension=ts&play_token=La27N1coty
+#EXTINF:-1 tvg-id="etb1.es" tvg-name="┃ES┃ ETB 1 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/etb 1.png" group-title="99 📦 Otros",┃ES┃ ETB 1 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852382&extension=ts&play_token=wE6ghbvPT4
+#EXTINF:-1 tvg-id="etb2.es" tvg-name="┃ES┃ ETB 2 HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/etb 2.png" group-title="99 📦 Otros",┃ES┃ ETB 2 HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852381&extension=ts&play_token=6UtIG0S5uv
+#EXTINF:-1 tvg-id="factoriaficcion.es" tvg-name="┃ES┃ FDF" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Factoría_de_Ficción.svg.png" group-title="99 📦 Otros",┃ES┃ FDF
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896310&extension=ts&play_token=3VGLAe123c
+#EXTINF:-1 tvg-id="factoriaficcion.es" tvg-name="┃ES┃ FDF HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Factoría_de_Ficción.svg.png" group-title="99 📦 Otros",┃ES┃ FDF HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896309&extension=ts&play_token=v6bgVcPoGx
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ FISICA O GUIMICA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ FISICA O GUIMICA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897480&extension=ts&play_token=s1ImQ7A6VD
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ FISICA O GUIMICA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ FISICA O GUIMICA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897479&extension=ts&play_token=1LKeXxeUs7
+#EXTINF:-1 tvg-id="Flooxer" tvg-name="┃ES┃ FLOOXER" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ FLOOXER
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897471&extension=ts&play_token=u8jpjFCtHZ
+#EXTINF:-1 tvg-id="Flooxer" tvg-name="┃ES┃ FLOOXER HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ FLOOXER HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897470&extension=ts&play_token=7SJnwA9RTZ
+#EXTINF:-1 tvg-id="gol.es" tvg-name="┃ES┃ GOL PLAY" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/GOLPLAY.png" group-title="99 📦 Otros",┃ES┃ GOL PLAY
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897439&extension=ts&play_token=2IsArrLinj
+#EXTINF:-1 tvg-id="gol.es" tvg-name="┃ES┃ GOL PLAY HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/GOLPLAY.png" group-title="99 📦 Otros",┃ES┃ GOL PLAY HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897438&extension=ts&play_token=VuKLx2BeSJ
+#EXTINF:-1 tvg-id="historia.es" tvg-name="┃ES┃ HISTORIA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Historia_2015_logo.png" group-title="09 📚 Documentales",┃ES┃ HISTORIA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897267&extension=ts&play_token=IGSNF99jB4
+#EXTINF:-1 tvg-id="historia.es" tvg-name="┃ES┃ HISTORIA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Historia_2015_logo.png" group-title="09 📚 Documentales",┃ES┃ HISTORIA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897266&extension=ts&play_token=8ayThw0WIR
+#EXTINF:-1 tvg-id="hollywood.es" tvg-name="┃ES┃ HOLLYWOOD HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Hollywood.png" group-title="99 📦 Otros",┃ES┃ HOLLYWOOD HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895869&extension=ts&play_token=VS9GpeGlsL
+#EXTINF:-1 tvg-id="Iberalia caza" tvg-name="┃ES┃ IBERALIA CAZA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBERALIA.png" group-title="99 📦 Otros",┃ES┃ IBERALIA CAZA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897237&extension=ts&play_token=fHbMCgSGsG
+#EXTINF:-1 tvg-id="Iberalia caza" tvg-name="┃ES┃ IBERALIA CAZA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBERALIA.png" group-title="99 📦 Otros",┃ES┃ IBERALIA CAZA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897236&extension=ts&play_token=0E9sDp3qbi
+#EXTINF:-1 tvg-id="Iberalia TV" tvg-name="┃ES┃ IBERALIA TV" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBERALIA.png" group-title="99 📦 Otros",┃ES┃ IBERALIA TV
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897234&extension=ts&play_token=WytELzkJwr
+#EXTINF:-1 tvg-id="Iberalia TV" tvg-name="┃ES┃ IBERALIA TV HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/IBERALIA.png" group-title="99 📦 Otros",┃ES┃ IBERALIA TV HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897233&extension=ts&play_token=8Dup3fi8oP
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ IHOLA! PLAY" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ IHOLA! PLAY
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897468&extension=ts&play_token=AXoouow3Dm
+#EXTINF:-1 tvg-id="" tvg-name="┃ES┃ IHOLA! PLAY HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/atresplayer.png" group-title="99 📦 Otros",┃ES┃ IHOLA! PLAY HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897467&extension=ts&play_token=Fbca6ElaI2
+#EXTINF:-1 tvg-id="laotra.es" tvg-name="┃ES┃ LA OTRA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/LaOtra.png" group-title="99 📦 Otros",┃ES┃ LA OTRA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895806&extension=ts&play_token=12MtcyV4F9
+#EXTINF:-1 tvg-id="laotra.es" tvg-name="┃ES┃ LA OTRA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/LaOtra.png" group-title="99 📦 Otros",┃ES┃ LA OTRA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895805&extension=ts&play_token=2pc0Tj0y7V
+#EXTINF:-1 tvg-id="lasexta.es" tvg-name="┃ES┃ LA SEXTA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/La_Sexta_(A3M).svg.png" group-title="01 📺 Generalistas",┃ES┃ LA SEXTA
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895550&extension=ts&play_token=LD7JnHtiRv
+#EXTINF:-1 tvg-id="lasexta.es" tvg-name="┃ES┃ LA SEXTA HD ⏺ʳᵉᶜ" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/La_Sexta_(A3M).svg.png" group-title="01 📺 Generalistas",┃ES┃ LA SEXTA HD ⏺ʳᵉᶜ
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852260&extension=ts&play_token=7akP5RNumR
+#EXTINF:-1 tvg-id="tcm.es" tvg-name="┃ES┃ TCM" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/TCM_logo.svg.png" group-title="07 🎬 Cine",┃ES┃ TCM
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895867&extension=ts&play_token=L22teuW4jY
+#EXTINF:-1 tvg-id="tcm.es" tvg-name="┃ES┃ TCM HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/TCM_logo.svg.png" group-title="07 🎬 Cine",┃ES┃ TCM HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895866&extension=ts&play_token=EzxUY8M6sZ
+#EXTINF:-1 tvg-id="neox.es" tvg-name="┃ES┃ NEOX" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/NEOX.png" group-title="99 📦 Otros",┃ES┃ NEOX
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895920&extension=ts&play_token=mG3wQBEZb6
+#EXTINF:-1 tvg-id="neox.es" tvg-name="┃ES┃ NEOX HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/NEOX.png" group-title="99 📦 Otros",┃ES┃ NEOX HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895919&extension=ts&play_token=SVaBpoMeEM
+#EXTINF:-1 tvg-id="somos.es" tvg-name="┃ES┃ SOMOS" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Somos.png" group-title="99 📦 Otros",┃ES┃ SOMOS
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895885&extension=ts&play_token=ir2eHJ6xmZ
+#EXTINF:-1 tvg-id="somos.es" tvg-name="┃ES┃ SOMOS HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Somos.png" group-title="99 📦 Otros",┃ES┃ SOMOS HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895884&extension=ts&play_token=zSVQOTaoIw
+#EXTINF:-1 tvg-id="sundance.es" tvg-name="┃ES┃ SUNDANCE TV" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Sundance_Channel.png" group-title="99 📦 Otros",┃ES┃ SUNDANCE TV
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895872&extension=ts&play_token=AhbldZdzQE
+#EXTINF:-1 tvg-id="sundance.es" tvg-name="┃ES┃ SUNDANCE TV HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Sundance_Channel.png" group-title="99 📦 Otros",┃ES┃ SUNDANCE TV HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895871&extension=ts&play_token=2J5Dp0M5JB
+#EXTINF:-1 tvg-id="syfy.es" tvg-name="┃ES┃ SYFY" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/2560px-SYFY.svg.png" group-title="08 📺 Series",┃ES┃ SYFY
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895864&extension=ts&play_token=v5mIUiEcTL
+#EXTINF:-1 tvg-id="syfy.es" tvg-name="┃ES┃ SYFY HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/2560px-SYFY.svg.png" group-title="08 📺 Series",┃ES┃ SYFY HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895863&extension=ts&play_token=cDnj0w27DX
+#EXTINF:-1 tvg-id="telecinco.es" tvg-name="┃ES┃ TELECINCO" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Telecinco.svg.png" group-title="01 📺 Generalistas",┃ES┃ TELECINCO
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895548&extension=ts&play_token=WzipiYnuCR
+#EXTINF:-1 tvg-id="telecinco.es" tvg-name="┃ES┃ TELECINCO HD ⏺ʳᵉᶜ" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Telecinco.svg.png" group-title="01 📺 Generalistas",┃ES┃ TELECINCO HD ⏺ʳᵉᶜ
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=852261&extension=ts&play_token=h6HYdy9m7F
+#EXTINF:-1 tvg-id="teledeporte.es" tvg-name="┃ES┃ TELEDEPORTE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/1200px-Teledeporte.svg.png" group-title="06 🎾 Deportes",┃ES┃ TELEDEPORTE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897452&extension=ts&play_token=CdMN1dGGro
+#EXTINF:-1 tvg-id="teledeporte.es" tvg-name="┃ES┃ TELEDEPORTE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/1200px-Teledeporte.svg.png" group-title="06 🎾 Deportes",┃ES┃ TELEDEPORTE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=897451&extension=ts&play_token=HVlef7kDJF
+#EXTINF:-1 tvg-id="ten.es" tvg-name="┃ES┃ TEN" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/TenTV.png" group-title="99 📦 Otros",┃ES┃ TEN
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896293&extension=ts&play_token=xZmT3MZj3x
+#EXTINF:-1 tvg-id="Torolé TV" tvg-name="┃ES┃ TOROLE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Torole tv.png" group-title="99 📦 Otros",┃ES┃ TOROLE
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896307&extension=ts&play_token=7CPubUd4ts
+#EXTINF:-1 tvg-id="13tv.es" tvg-name="┃ES┃ TRECE TV" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Trece.svg.png" group-title="01 📺 Generalistas",┃ES┃ TRECE TV
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895808&extension=ts&play_token=n7JqNoNscv
+#EXTINF:-1 tvg-id="13tv.es" tvg-name="┃ES┃ TRECE TV HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Trece.svg.png" group-title="01 📺 Generalistas",┃ES┃ TRECE TV HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895807&extension=ts&play_token=VqZn8IyWQf
+#EXTINF:-1 tvg-id="TV Castellon" tvg-name="┃ES┃ TV GALICIA HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Television de galicia.png" group-title="99 📦 Otros",┃ES┃ TV GALICIA HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895801&extension=ts&play_token=mMyMOdbtjN
+#EXTINF:-1 tvg-id="xtrm.es" tvg-name="┃ES┃ XTRM" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/XTRM_España.png" group-title="99 📦 Otros",┃ES┃ XTRM
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=895882&extension=ts&play_token=4s7dFoH16R
+#EXTINF:-1 tvg-id="Torolé TV" tvg-name="┃ES┃ TOROLE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/Torole tv.png" group-title="99 📦 Otros",┃ES┃ TOROLE HD
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:17:1E:1E&stream=896306&extension=ts&play_token=aMnGcRDoTF
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 1 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 1 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745110&extension=ts&play_token=cUCBitwlif
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 2 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 2 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745111&extension=ts&play_token=EhtXJ3uZk0
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 3 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 3 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745112&extension=ts&play_token=ky5LOQqw7W
+#EXTINF:-1 tvg-id="" tvg-name="┃WC┃ DAZN MUNDIAL 4 HD [ES]" tvg-logo="http://picon.tivi-ott.net:25461/picon/WORLD CUP 2026/WORLD CUP 2026.png" group-title="03 🔥 DAZN",┃WC┃ DAZN MUNDIAL 4 HD [ES]
+http://main.light-ott.net:80/play/live.php?mac=00:1A:79:00:26:D1&stream=1745113&extension=ts&play_token=WilYykizlb
+#EXTINF:-1 tvg-id="BOM Cine" tvg-name="┃ES┃ BOM CINE" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/BOMCINE.png" group-title="07 🎬 Cine",┃ES┃ BOM CINE
+http://line.mag7070.eu:80/play/live.php?mac=00:1A:79:1A:6B:0E&stream=895875&extension=ts&play_token=LYyiabSBmv
+#EXTINF:-1 tvg-id="BOM Cine" tvg-name="┃ES┃ BOM CINE FHD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/BOMCINE.png" group-title="07 🎬 Cine",┃ES┃ BOM CINE FHD
+http://line.mag7070.eu:80/play/live.php?mac=00:1A:79:1A:6B:0E&stream=895873&extension=ts&play_token=WJmesBKCob
+#EXTINF:-1 tvg-id="BOM Cine" tvg-name="┃ES┃ BOM CINE HD" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/BOMCINE.png" group-title="07 🎬 Cine",┃ES┃ BOM CINE HD
+http://line.mag7070.eu:80/play/live.php?mac=00:1A:79:1A:6B:0E&stream=895874&extension=ts&play_token=sxXxHbnTFJ
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Liga de Campeones 3 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31820/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Liga de Campeones 5 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31821/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ LaLiga 4 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31822/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="02 ⚽ Fútbol",LaLiga TV Hypermotion HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31823/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31830/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN 1 Bar HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31831/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN 2 Bar HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31832/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN F1 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31834/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31835/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Liga de Campeones HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31842/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Golf HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31844/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="06 🎾 Deportes",Eurosport 1 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31845/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="02 ⚽ Fútbol",Real Madrid TV ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31847/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="06 🎾 Deportes",Eurosport 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31848/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes 3 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31849/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes 4 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31850/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes 5 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31851/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ LaLiga HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31853/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ LaLiga 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31854/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN LaLiga 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31855/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN LaLiga HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31856/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="06 🎾 Deportes",Teledeporte HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31857/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ LaLiga 3 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31858/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="02 ⚽ Fútbol",LaLiga TV Hypermotion 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31859/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Liga de Campeones 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31860/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN 3 Bar HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31861/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="03 🔥 DAZN",DAZN 4 Bar HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31862/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="99 📦 Otros",Gol HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31863/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Liga de Campeones 4 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31864/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="02 ⚽ Fútbol",LaLiga TV Hypermotion 3 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31865/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Vamos HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31867/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Deportes 6 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31874/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="04 ⭐ Movistar+",M+ Golf 2 HD ES
+http://lutik.kazaktelekom.com/iptv/5UVGP564T2GFDE/31878/index.m3u8
+#EXTINF:-1 tvg-id="Movistar Plus" tvg-name="Movistar Plus" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MPLUS" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/5240/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", Movistar Plus
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"201af565217f49dda34ddff38deae4f5":"9f3003740ad1ac2969346679a0a70906"}
+http://mplus-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Vamos" tvg-name="M+ Vamos" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/VAMOSD" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4767/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Vamos
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"ac7c72c6b8cc4609a9d87d651bfa0d79":"335d536f2e75c6c90bc86f46615188e8"}
+http://vamos-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Vamos 2" tvg-name="M+ Vamos 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/VAM2SD" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5490/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Vamos 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"7081cff7b7d24874a73335c5cab86005":"eb45a37895c575f97cd92db9192bcd3a"}
+http://m2vamo-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Vamos 3" tvg-name="M+ Vamos 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MELLAV" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/5093/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Vamos 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"efedd22a70814d359e133ec080664545":"ffdee838a41a3023c0eb0e5632a1fc15"}
+http://m3vamo-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="Primera Federación" tvg-name="Primera Federación" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MCOPA" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/5355/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="99 📦 Otros", Primera Federación
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"930ef60a5d5a43f684b03795bfa284fc":"620af8c4216adffe4920d9c076fa3fef"}
+http://01coparey-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ LALIGA" tvg-name="M+ LALIGA" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIGA" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4882/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+",M+ LALIGA
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"af0452e5291446c590c39c6a7e281bd9":"7085691baed21a2c7de3db731f5b4157"}
+http://mlaliga-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ LALIGA" tvg-name="M+ LALIGA" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIGA" group-title="04 ⭐ Movistar+",M+ LALIGA opcion 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"af0452e5291446c590c39c6a7e281bd9":"7085691baed21a2c7de3db731f5b4157"}
+http://mlaliga-hlsfp-movistarplus.emisiondof6.com/index02.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga" tvg-name="DAZN LaLiga" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZNLI" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5119/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN",DAZN LaLiga
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"4e5ed6aa93d94770aa2c69685641fba7":"1775f3940b14a906d519feaac3db61cc"}
+http://01ligdazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga" tvg-name="DAZN LaLiga" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZNLI" group-title="03 🔥 DAZN",DAZN LaLiga opcion 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"4e5ed6aa93d94770aa2c69685641fba7":"1775f3940b14a906d519feaac3db61cc"}
+http://01ligdazn-hlsfp-movistarplus.emisiondof6.com/index02.m3u8
+#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION" tvg-name="LALIGA TV HYPERMOTION" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIGS" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5124/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="02 ⚽ Fútbol", LALIGA TV HYPERMOTION
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"408b5ff53fc642dfa157d890a199cb9d":"c20c1d8f3c6980f73c8700f8b9d7b94e"}
+http://msegdiv-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ LALIGA 2" tvg-name=M+ LALIGA 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIG1" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/5474/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ LALIGA 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"3f8b74cd868f47869c741c143486bf48":"4a081a3abd43dbdca5c3745b7524ceab"}
+http://2liga-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga 2" tvg-name="DAZN LaLiga 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZNL2" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5120/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN",DAZN LaLiga 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"70ddabd830994c619130e8c9faf50151":"ebc666558fbd47f7a9cca8e965650705"}
+http://02ligdazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION 2" tvg-name="LALIGA TV HYPERMOTION 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIGS2" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5127/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="02 ⚽ Fútbol", LALIGA TV HYPERMOTION 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"9c102a4038f94f7184f090f9a83d0c60":"5fd3578414102bda57584041c0c0f948"}
+http://2segdiv-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-name="M+ Liga de Campeones" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CHAPIO" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4594/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Liga de Campeones
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"28bec4e5d604454f9490328209c9d04b":"fda1e5936f0ed48b6aba0566008b93bb"}
+http://mligacampeones-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 2" tvg-name="M+ Liga de Campeones 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CHAP1" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4581/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Liga de Campeones 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"fa63d9f5786a413b80e9ca5573c55cca":"eca32f85e10508d2f70e84ee6a5ca91b"}
+http://02campeones-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Liga de Campeones  3" tvg-name="M+ Liga de Campeones  3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CHAP2" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4564/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Liga de Campeones  3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"9a19651c05144d7187724a7b3186594e":"60b72b5a9e2c946f7c4406769331eaac"}
+http://03campeones-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes" tvg-name="M+ Deportes" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CPDEP" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4592/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Deportes
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"419d9d819d6c4d2590b308dbcacd5d2d":"fcb4675d25ea0279efea09df21af12a8"}
+http://mdeportes-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 2" tvg-name="M+ Deportes 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/ARTHUR" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4585/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Deportes 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"4b17cd6044e0407a8b6e699a151c9c16":"0d30b74f54a80dfac2f9fdfefe8c737c"}
+http://2multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-name="M+ Deportes 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/USOP2" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4556/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Deportes 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"c534751957294811b8fab0a359a9064f":"efed281325664d0ab9be0b0ab1694468"}
+http://3multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Baloncesto" tvg-name="M+ Baloncesto" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MBALCT" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5536/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Baloncesto
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"4d461965a36a49319c279a92c495f5ec":"d077d064b7c4b8b14935308ce4aaeb06"}
+http://1mbasket-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Baloncesto 2" tvg-name="M+ Baloncesto 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MBALC2" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5539/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Baloncesto 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"a99f9520d0f84d46900f387723aed276":"de1a70e6450932db82d236691394feb4"}
+http://2mbasket-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Golf" tvg-name="M+ Golf" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/GOLF%2B" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4584/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Golf
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"3550d6e850fb4567baa88cc8a5649435":"5489a51820fa2d896fc2d6a412f96e99"}
+http://mgolf-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Golf 2" tvg-name="M+ Golf 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/GOLF2" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5196/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="04 ⭐ Movistar+", M+ Golf 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"1c02db701fd946d5827457c3ea9ac668":"6ee92f24784b959d742dd229abb2415a"}
+http://2golf-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN F1" tvg-name="DAZN F1" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MVF1" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4608/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN F1
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"8231b6cfceb448198bafc5c45ea4b4f6":"bbe173c2fc577f8644d9f5e2b9107675"}
+http://formula1-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN MotoGP" tvg-name="DAZN MotoGP" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZMOT" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5523/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN MotoGP
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"7bf499c4ec27471eb2335262c515dbba":"9cee3c32615e6f598eb235e036fd598b"}
+http://1motodazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/M1SD" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4949/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN 1
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"4db3c6738c6247c0942c13387422450e":"20f38a6956f0099b3cb050bda0b9feea"}
+http://01dazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN 2" tvg-name="DAZN 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/M2SD" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4950/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"192a2d48170f4b4a81e2b1eec7638af5":"6c3530a52fe9a8eea9af93ffd183272c"}
+http://02dazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN Baloncesto" tvg-name="DAZN Baloncesto" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZBA" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5499/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN Baloncesto
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"71ed6622c2664c3d8beeb78f64a86a45":"892f9253646b13589291585107902480"}
+http://1basketdazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN Baloncesto 2" tvg-name="DAZN Baloncesto 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZB2" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/5503/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN Baloncesto 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"25142348c39141efae65f1a1e82e668b":"967a75877cffb09e77912d6a0e5cca1f"}
+http://2basketdazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN Baloncesto 3" tvg-name="DAZN Baloncesto 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZB3" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/5506/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="03 🔥 DAZN", DAZN Baloncesto 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"0373cc44ee6b423b87c5399838969537":"325f9347e0fe80ca01831fff0e4fa256"}
+http://3basketdazn-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/ESP" catchup-type="default" catchup-source="https://stover-wp0.cdn.telefonica.com/4605/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="06 🎾 Deportes", Eurosport 1
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"89e5381f642c48518eb73948f1062b07":"506e82bc33071597a9c8109cd2bc3e04"}
+http://eurosport1-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/ESP2" catchup-type="default" catchup-source="https://stoverhcsmno-wp0.cdn.telefonica.com/4580/vxfmt=dp/playlist.m3u8?device_profile=HLS_TV_FAIRPLAY&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" catchup-days="62" group-title="06 🎾 Deportes", Eurosport 2
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"658db989f6bd4579a39fc42b0fc76757":"b9bdc8cb6c1787287cee3c31b25e3b05"}
+http://eurosport2-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="GOL" tvg-name="GOL" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/GOL" group-title="99 📦 Otros", GOL
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"8eaade1d69dc4196b9582636b0159ea5":"f806ef2d862d0b5f2cd53a679e05830b"}
+http://goltv-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="Teledeporte" tvg-name="Teledeporte" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/TDEP" group-title="06 🎾 Deportes", Teledeporte
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"dc645773e95c4a019ba4ec3ef6c5f3a7":"15c002eed8e861d8172d409dae7b86fc"}
+http://teledeporte-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="Real Madrid TV" tvg-name="Real Madrid TV" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/REALM" group-title="02 ⚽ Fútbol", Real Madrid TV
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"8660a991b03946649b102fc8c4f69249":"b6231cdadf5eeaf03c5c92d46029db6b"}
+http://realmadrid-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ LALIGA 3" tvg-name="M+ LALIGA 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIG2" group-title="04 ⭐ Movistar+", M+ LALIGA 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"2c0d2ff0866f45e5a4908a5f7907778b":"527a992938ebaba6524ae95cb5fe3f34"}
+http://3liga-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ LALIGA 4" tvg-name="M+ LALIGA 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIG3" group-title="04 ⭐ Movistar+", M+ LALIGA 4
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"0e24e8d4318d40aaa4589d96de868ef9":"e401789a56a7dc14784380eed4160234"}
+http://4liga-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN MUNDIAL 4" tvg-name="DAZN MUNDIAL 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZNL4" group-title="03 🔥 DAZN",DAZN LaLiga 4
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"902dee7944044a4dbed3064462d18a49":"0fa67e37c2e14c93b6fdf007ab458cd3"}
+http://04daznliga-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION 3" tvg-name="LALIGA TV HYPERMOTION 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MLIGS3" group-title="02 ⚽ Fútbol", LALIGA TV HYPERMOTION 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"ebff39836758417aa1ba86326b39a259":"a4cbb11899804f3e0ca82249d0a96e29"}
+http://3segdiv-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Liga de Campeones  4" tvg-name="M+ Liga de Campeones  4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CHAP3" group-title="04 ⭐ Movistar+", M+ Liga de Campeones  4
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"ac165b16cace4fd3abd6a6ddef64b073":"cb297ab63bdcf573bab863737cf3f0da"}
+http://04campeones-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 5" tvg-name="M+ Liga de Campeones 5" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/CHAP4" group-title="04 ⭐ Movistar+", M+ Liga de Campeones 5
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"3591096088844eb785b0a229ea0b5fb0":"6b162b77077aa61e0dc50842c60adb67"}
+http://05campeones-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 4" tvg-name="M+ Deportes 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/USOP3" group-title="04 ⭐ Movistar+", M+ Deportes 4
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"748ba565f35a45b1ad1855708804a2d2":"afaee4f0205d6bc5823711c87bffa96f"}
+http://4multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-name="M+ Deportes 5" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/USOP11" group-title="04 ⭐ Movistar+", M+ Deportes 5
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"6a2bb31cf447422ca124be05c6218fe9":"6c327f82a703576f156d52aaec23cb1a"}
+http://5multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 6" tvg-name="M+ Deportes 6" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MULTI8" group-title="04 ⭐ Movistar+", M+ Deportes 6
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"eab50813f64643c1a4892035dc7e6398":"4f9a05db91e71b505335012f7da8366d"}
+http://6multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 7" tvg-name="M+ Deportes 7" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MULTI6" group-title="04 ⭐ Movistar+", M+ Deportes 7
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"b9ba461c61684f5bb702e4054c39060f":"5d9f0e8434b8d6cf60fb25b3c8f844d2"}
+http://7multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="M+ Deportes 8" tvg-name="M+ Deportes 8" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MULTI9" group-title="04 ⭐ Movistar+", M+ Deportes 8
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"568af97b895242d5acd519ca9a8f7737":"a6851850788e0069601aff33d10447d9"}
+http://8multidep-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN 3" tvg-name="DAZN 3" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZN3" group-title="03 🔥 DAZN", DAZN 3
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"a35322f0bf4444c38fb6b85d78fbf3b9":"3b2fcff5301d69e1a281d61582752409"}
+http://dazn3-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN 4" tvg-name="DAZN 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/DAZN4" group-title="03 🔥 DAZN", DAZN 4
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPad16,3; CPU OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Tropicana_NJ/5.7.1
+#KODIPROP:inputstream.adaptive.license_key={"c81e3280461145caa268ba0cf27eb6ca":"fbbf23690ce93da9ac55a0655680cb41"}
+http://dazn4-hlsfp-movistarplus.emisiondof6.com/index01.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga" tvg-name="DAZN LaLiga" tvg-shift="+2" ch-number="293" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Logo_DAZN_LALIGA.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/DAZN_LALIGA1/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="03 🔥 DAZN",DAZN LaLiga (-2h)
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/DAZN_LALIGA1/__op/delay-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga" tvg-name="DAZN LaLiga" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Logo_DAZN_LALIGA.png" catchup-type="default" catchup-source="https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r4/__c/DAZN_LALIGA1/__op/8fe5c65f81d13f7af6496748b5fb148b/__f/index.m3u8?device_profile=DASH_TV_WIDEVINE&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" group-title="03 🔥 DAZN",DAZN LaLiga (iPhone-VLC)
+https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r4/__c/DAZN_LALIGA1/__op/8fe5c65f81d13f7af6496748b5fb148b/__f/index.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga 2" tvg-name="DAZN LaLiga 2" tvg-shift="+2" ch-number="294" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Default_Image_DAZN_LALIGA_2.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/DAZN_LALIGA2/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="03 🔥 DAZN",DAZN LaLiga 2 (-2h)
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/DAZN_LALIGA2/__op/delay-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="DAZN LaLiga 2" tvg-name="DAZN LaLiga 2" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Default_Image_DAZN_LALIGA_2.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/DAZN_LALIGA2/__op/8fe5c65f81d13f7af6496748b5fb148b/__f/index.m3u8?device_profile=DASH_TV_WIDEVINE&start_time={utc:Y-m-dTH:M:S}Z&end_time={utcend:Y-m-dTH:M:S}Z" group-title="03 🔥 DAZN",Dazn Liga 2 (iPhone-VLC)
+https://requestrouter3.cdn.agiletv.net/__cl/cg:lv-r4/__c/DAZN_LALIGA2/__op/8fe5c65f81d13f7af6496748b5fb148b/__f/index.m3u8
+#EXTINF:-1 tvg-id="DE | DAZN COMBAT" tvg-logo="" group-title="03 🔥 DAZN",DAZN COMBAT
+https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/q994m1myq9ps1dyhicv16xn9m_image-header_pEs_1723118324000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN LALIGA
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=b920a58b15d65ab9a27316e85c747138:ec59ac08a32fcec4f8c075ca221ce22a
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-224/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/7kz6de1zs0wq13yx0rdsszp4t_image-header_pEs_1723118632000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 2
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=77f46b0cecfa5d3e930b6b679899372b:30152efcbbfb69f661c8432dcb3da165
+https://dcs-ac-live.cdn.indazn.com/hls/dazn-linear-219/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/ng4ei1s4tvvk182ndxjeaj08p_image-header_pEs_1723117975000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN F1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=703c762f6845501aa67d5260aeb33585:62a0e03b280bc0092283558510a3f6b4
+https://dcs-fs-live-dazn-cdn.dazn.com/hls/dazn-linear-201/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1o8qrrfzjsf0r1gh6jmd74rbi2_image-header_pEs_1704473541000/fill/none/top/none/85/334/187/webp/image" group-title="02 ⚽ Fútbol",HYPERMOTION
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=51f285cf1297595b9b4203f231bf676c:4855f089fdfa4a733e9ee47fe9bee399
+https://dcs-fs-live-dazn-cdn.dazn.com/hls/dazn-linear-221/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1kaqhtrr0kcl11563aff0431p8_image-header_pEs_1661945507000/fill/none/top/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=c1adb1748b73559d9c3641d200f29ad1:6dbc885222db0ec39f969ff9f70af4a6
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-213/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1ga4f7hq0t8lu19ptfdbnne7v0_image-header_pEs_1661945507000/fill/none/top/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 2
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=2318d90a05375833a1168f315dd18b07:808154091db21ad932fbbc3bce646c0e
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-214/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1uwq82jpc6ai618kxcuq03qfjp_image-header_pEs_1733825595000/fill/none/top/none/85/334/187/webp/image" group-title="99 📦 Otros",Rally TV
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=1fdaf490829b5a0e96cd54012a00e3e9:b5ed8b50db846bc0609734146eef797b
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-220/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1drhnrh91tkv1fwzqxaj1tbrc_image-header_pEs_1723124640000/fill/none/top/none/85/334/187/webp/image" group-title="99 📦 Otros",Red Bull TV
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=5912d48e2b915caf9ae5ab0c3df9aae1:7b8a244c697735202591656b052eafba
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-217/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v4/eu/none/1ih4or13ou3x41uwy4lhaa2mtf_image-header_pEs_1778755577000/fill/center/center/none/80/1600/900/webp/image" group-title="99 📦 Otros",1 FEDERACION
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dcj-ak-livedazn.akamaized.net/hls/dazn-linear-542/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/g4xuuh9i2y2b13yamobxm8men_image-header_pEs_1723035920000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 1 DE
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=724c0979827650658dcd06df41f9c18d:e95737ed07c9e6428bb33b85986fef27
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-202/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/7kz6de1zs0wq13yx0rdsszp4t_image-header_pEs_1723118632000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 2 DE
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=1739545b9be8552db3a42b0482d60482:9c63cdd24f1f8c420d0ac89a04a4524c
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-203/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/15j00hgsf1ioo17d1fl8wc69jb_image-header_pRow_1730196750000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 1 PT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=1da827896a8757a8b30b23f452b65b75:c676fa78dc5151b8a136f991409ca755
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-234/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/yhoot1zy31gt13i1wkgl4cvxw_image-header_pRow_1730196778000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 2 PT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=a193794bf1395e04a64f0cdcb48c0bd6:b1d3a81d3c8003a43cc97b9876654f09
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-235/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/mbe2u8k3c1yl1atl7p40rb76l_image-header_pRow_1730196810000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 3 PT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=3fca0ad3536d5480bc4c4d2f8fb3f96f:8d55aea55cdbd8e9dcedbbfd235f613e
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-236/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/4wp5kczgbvi71dbl6rfj1pmyh_image-header_pRow_1730196843000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 4 PT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=58d6fc271b9a5907a7fc45a8f5d7cfb5:e1ac6cf2c20cf7119233447e21de3da1
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-237/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/eu/none/1anwtxog0d0h51nubkd9lacqnu_image-header_pRow_1730196870000/fill/none/top/none/85/334/187/webp/image" group-title="03 🔥 DAZN",DAZN 5 PT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=8d77a85547f159f184fb4ec5005100b8:dcfdfbbc28e8d175103a2cab65365538
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-238/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_1/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 1 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=5b95fea44d1458128174961a2f43244c:8eac54008e5cb7e3751156ad53ca5625
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-211/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_2/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 2 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=316b4d8767e45e64ad8ba429dca07518:ae0f31d94668346ca4981930fb8ddfc7
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-212/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_3/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 3 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=ea97375d4da251259b0fdf59d49209bc:cf02db0cd045fc07febc4a65de0b5ec4
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-231/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_4/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 4 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=d3d146e98d15516cafadf9eb3403dc26:26a6690fbed68ef1de6fa188dccdd144
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-232/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_5/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 5 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=54af840917185951979f2c7063f820e3:3ecf8a29acdcd597559c89dcc5c7d689
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-233/stream.m3u8?p=tv
+#EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/eu/v3/linear-channel/none/Logo_LTV_Eurosport_6/contain/center/center/none/85/334/187/webp/image" group-title="06 🎾 Deportes",Eurosport 6 IT
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=AppleCoreMedia
+#KODIPROP:inputstream.adaptive.license_type=fairplay
+#KODIPROP:inputstream.adaptive.license_key=f7299fc3eeec54e786c1c2e143c04585:1b2731ac7c25ecd07b5c3676d16f1532
+https://dct-ac-live.cdn.indazn.com/hls/dazn-linear-239/stream.m3u8?p=tv
+#EXTINF:-1 tvg-id="LaLiga Hypermotion tv" ch-number="49" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/LaLigaHypermotion.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_LW/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion tv_
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_LW/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Hypermotion tv" tvg-shift="+2" ch-number="49" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/LaLigaHypermotion.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_LW/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion tv (-2h)_
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_LW/__op/delay-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Hypermotion TV Multi 2" ch-number="50" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion2.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_Multi_2_LW/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion TV Multi 2_
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_Multi_2_LW/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Hypermotion TV Multi 2" tvg-shift="+2" ch-number="50" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion2.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_Multi_2_LW/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion TV Multi 2 (-2h)_
+https://live.euskaltel.com/__cl/cg:lv-r4/__c/Liga_Hypermotion_Multi_2_LW/__op/delay-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Hypermotion TV Multi 3" ch-number="51" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion3.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:live1/__c/Liga_hypermotion_Multi_3/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion TV Multi 3_
+https://live.euskaltel.com/__cl/cg:live1/__c/Liga_hypermotion_Multi_3/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Hypermotion TV Multi 3" tvg-shift="+2" ch-number="51" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/Hypermotion3.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:live1/__c/Liga_hypermotion_Multi_3/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Hypermotion TV Multi 3 (-2h)_
+https://live.euskaltel.com/__cl/cg:live1/__c/Liga_hypermotion_Multi_3/__op/delay-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Inside" ch-number="52" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/LaLigaInside.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-p1/__c/LaLigaSportsTV_HD/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Inside_
+https://live.euskaltel.com/__cl/cg:lv-p1/__c/LaLigaSportsTV_HD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-id="LaLiga Inside" tvg-shift="+2" ch-number="52" tvg-logo="https://agiletv-images.s3.eu-west-1.amazonaws.com/channelicons/LaLigaInside.png" catchup-type="default" catchup-source="https://live.euskaltel.com/__cl/cg:lv-p1/__c/LaLigaSportsTV_HD/__op/default/__f/index.m3u8?startTime=${start}&stopTime=${end}" catchup-days="7" group-title="02 ⚽ Fútbol",LaLiga Inside (-2h)_
+https://live.euskaltel.com/__cl/cg:lv-p1/__c/LaLigaSportsTV_HD/__op/delay-default/__f/index.m3u8

@@ -707,6 +707,84 @@ with open(
 ) as archivo:
     archivo.write(contenido_final)
 
+# ---------------------------------------------------------------------------
+# LISTAS POR PLATAFORMA
+# ---------------------------------------------------------------------------
+# Cada canal se emite en varias "familias" (DRM/formato) y cada plataforma
+# solo reproduce algunas:
+#
+#   playready -> Android (algunas apps) y PC (Windows)
+#   clearkey  -> Android y PC
+#   dash      -> Android y PC (mejor esfuerzo)
+#   fairplay  -> SOLO iOS
+#   plain     -> en todas (HLS sin DRM)
+#
+# Por eso se generan:
+#   lista-ios.m3u        -> fairplay + plain
+#   lista-android-pc.m3u -> playready + clearkey + dash + plain
+#   lista.m3u            -> maestra (todo)
+
+
+def _familia_de_bloque(lineas_bloque):
+    texto = "\n".join(lineas_bloque)
+    url = next(
+        (l for l in reversed(lineas_bloque) if l.startswith("http")),
+        "",
+    )
+    if "license_type=playready" in texto or "pry-movistarplus" in url:
+        return "playready"
+    if (
+        "license_type=org.w3.clearkey" in texto
+        or "dash-movistarplus" in url
+        or "widevine" in texto
+    ):
+        return "clearkey"
+    if "license_type=fairplay" in texto or "hlsfp-movistarplus" in url:
+        return "fairplay"
+    if url.endswith(".mpd") or ".isml" in url:
+        return "dash"
+    return "plain"
+
+
+def _partir_en_bloques(lineas):
+    """Parte la lista de lineas en bloques por canal: cada bloque empieza
+    por #EXTINF e incluye sus lineas de propiedades y la URL hasta la
+    proxima #EXTINF."""
+    bloques = []
+    actual = None
+    for linea in lineas:
+        if linea.startswith("#EXTINF"):
+            if actual is not None:
+                bloques.append(actual)
+            actual = [linea]
+        elif actual is not None:
+            actual.append(linea)
+    if actual is not None:
+        bloques.append(actual)
+    return bloques
+
+
+def _escribir_lista(ruta, bloques):
+    lineas = [cabecera]
+    for bloque in bloques:
+        lineas.extend(bloque)
+    with open(ruta, "w", encoding="utf-8") as archivo:
+        archivo.write("\n".join(lineas) + "\n")
+
+
+bloques = _partir_en_bloques(salida_prioritaria + salida)
+clases = [_familia_de_bloque(b) for b in bloques]
+familias = Counter(clases)
+
+familias_ios = {"fairplay", "plain"}
+familias_android_pc = {"playready", "clearkey", "dash", "plain"}
+
+bloques_ios = [b for b, c in zip(bloques, clases) if c in familias_ios]
+bloques_android_pc = [b for b, c in zip(bloques, clases) if c in familias_android_pc]
+
+_escribir_lista("lista-ios.m3u", bloques_ios)
+_escribir_lista("lista-android-pc.m3u", bloques_android_pc)
+
 print()
 print("=" * 60)
 print("RESUMEN DE CATEGORÍAS")
@@ -714,7 +792,14 @@ print("=" * 60)
 for categoria, total in sorted(contador.items()):
     print(f"{categoria}: {total}")
 print("=" * 60)
+print("FAMILIAS (formato/DRM)")
+for familia, total in sorted(familias.items()):
+    print(f"{familia}: {total}")
+print("=" * 60)
 print(f"Canales procesados: {sum(contador.values())}")
 print(f"MD5: {md5}")
-print("lista.m3u creada correctamente")
+print(f"lista.m3u (maestra): {sum(contador.values())} canales")
+print(f"lista-ios.m3u: {len(bloques_ios)} canales")
+print(f"lista-android-pc.m3u: {len(bloques_android_pc)} canales")
+print("Listas creadas correctamente")
 print("=" * 60)
