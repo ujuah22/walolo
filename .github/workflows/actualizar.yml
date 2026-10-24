@@ -2,7 +2,7 @@ name: Actualizar lista
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 # Mínimo privilegio: solo escribe contenido; no expone ningún secret
