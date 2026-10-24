@@ -1,0 +1,69 @@
+name: Cazador de orígenes
+
+on:
+  # 1) Manual: "quiero orígenes nuevos ahora" → pestaña Actions → "Run workflow"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "estado | caza | caza-todas"
+        required: false
+        default: "caza"
+      cats:
+        description: "categorías (ej: movistar-dof deporte-es); vacío = las caídas"
+        required: false
+        default: ""
+
+  # 2) Automático: si el workflow "Actualizar lista" FALLA, va a cazar reemplazos
+  workflow_run:
+    workflows: ["Actualizar lista"]
+    types: [completed]
+
+  # 3) Chequeo semanal de salud (domingos 06:00 UTC)
+  schedule:
+    - cron: "0 6 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  cazador:
+    runs-on: ubuntu-latest
+    # En disparo automático: solo actuar si el "Actualizar lista" falló
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'failure')
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests==2.34.2  # versión fijada (no "la última")
+
+      - name: Ejecutar cazador
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event.inputs.modo }}" = "estado" ]; then
+            python cazador.py --estado
+          elif [ "${{ github.event.inputs.modo }}" = "caza-todas" ]; then
+            python cazador.py --caza --todas
+          elif [ -n "${{ github.event.inputs.cats }}" ]; then
+            python cazador.py --caza ${{ github.event.inputs.cats }}
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python cazador.py --caza
+          else
+            # automático o semanal: primero estado, caza solo si hay caídas
+            python cazador.py --caza
+          fi
+
+      - name: Subir informe
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add cazador
+          git commit -m "Informe de caza $(date +%Y%m%d-%H%M)" || exit 0
+          git push
