@@ -23,12 +23,18 @@ jobs:
 
       - run: pip install requests==2.34.2  # versión fijada (no "la última")
 
-      - run: python merge.py
+      - name: Regenerar listas y espejos
+        env:
+          # La guia se comprueba con el origen como maximo 1 vez cada N horas;
+          # si no ha cambiado responde 304 y no descarga ni un byte.
+          EPG_INTERVALO_HORAS: "6"
+        run: python merge.py
 
-      - name: Commit cambios (lista + espejo de fuentes)
+      - name: Commit cambios (listas + espejo de fuentes + espejo de guia)
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add lista.m3u lista-ios.m3u lista-android-pc.m3u upstream
+          git add -A epg 2>/dev/null || true
           git commit -m "Actualizacion automatica" || exit 0
           git push

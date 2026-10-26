@@ -1,8 +1,12 @@
-import requests
+import gzip
 import hashlib
+import json
 import os
 import re
 from collections import Counter
+from datetime import datetime, timezone
+
+import requests
 
 # ---------------------------------------------------------------------------
 # FUENTES
@@ -36,7 +40,24 @@ URL_ULTIMA = [
     "https://pastebin.com/raw/hV2z2e9g",
 ]
 
-EPG_URL = "http://143.47.50.252:5000/getEPG"
+# --- EPG (guía de programación) -------------------------------------------
+# El origen de la guía manda el XML sin comprimir y pesa decenas de MB. Si cada
+# dispositivo lo descarga de ese servidor, cada tele le manda un fichero enorme
+# desde su propia IP y la guía va lenta. Así que el pipeline la baja (poco), la
+# guarda comprimida en TU repo y la cabecera de las listas apunta a TU URL: los
+# dispositivos ya no contactan ese servidor, solo leen tu repo.
+EPG_URL = os.environ.get("EPG_URL", "http://143.47.50.252:5000/getEPG")
+
+EPG_RUTA = "epg/epg.xml.gz"      # espejo (nombre estándar del ecosistema)
+EPG_INFORME = "epg/epg.info"     # cuándo y con qué ETag se comprobó por última vez
+EPG_INTERVALO_HORAS = float(os.environ.get("EPG_INTERVALO_HORAS", "6"))
+EPG_MAX_BYTES = 90_000_000       # freno de seguridad: no tragar sin límite
+EPG_MIN_PROGRAMAS = 200          # por debajo de esto no es una guía válida
+
+# El XML del origen trae el nombre y el enlace de quien genera la guía, y eso
+# delata de qué espejo público la estás tomando. Se neutalizan: el fichero
+# sigue siendo XMLTV válido, solo cambian dos atributos informativos.
+EPG_OMITIR_GENERADOR = True
 
 # ---------------------------------------------------------------------------
 # PALABRAS BLOQUEADAS
@@ -565,7 +586,198 @@ def cumple_es_o_movistar(extinf):
 # PROCESO PRINCIPAL
 # ---------------------------------------------------------------------------
 
-cabecera = f'#EXTM3U url-tvg="{EPG_URL}"'
+def _fecha_utc():
+    """Marca de tiempo UTC: nada de lo que se escribe en el repo debe delatar
+    dónde se ejecuta el script (ni hora local, ni nombre de máquina)."""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _leer_informe_epg():
+    try:
+        with open(EPG_INFORME, "r", encoding="utf-8") as archivo:
+            datos = json.load(archivo)
+        return datos if isinstance(datos, dict) else {}
+    except Exception:
+        return {}
+
+
+def _url_publica(ruta):
+    """URL desde la que los dispositivos leen el espejo.
+    En GitHub Actions se deduce sola (GITHUB_REPOSITORY + rama); en local se
+    puede fijar con IPTV_BASE_URL. Si el proyecto aún no está publicado,
+    devuelve cadena vacía y la cabecera apunta al origen de la guía."""
+    base = os.environ.get("IPTV_BASE_URL", "").strip().rstrip("/")
+    if not base:
+        repositorio = os.environ.get("GITHUB_REPOSITORY", "").strip()
+        rama = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
+        if not repositorio:
+            return ""
+        base = f"https://raw.githubusercontent.com/{repositorio}/{rama}"
+    return f"{base}/{ruta}"
+
+
+def _guia_es_valida(texto):
+    """Guía válida = XML con suficientes <programme>. Evita que una página de
+    error (HTTP 200 + HTML) pise un espejo que sí funcionaba."""
+    if not texto.lstrip("\ufeff").lstrip().startswith("<?xml"):
+        return False
+    return texto.count("<programme") >= EPG_MIN_PROGRAMAS
+
+
+def _neutralizar_generador(texto):
+    """Quita nombre y enlace del generador de la guía (2 atributos informativos
+    que identifican el espejo de procedencia)."""
+    texto = re.sub(
+        r'generator-info-name="[^"]*"', 'generator-info-name="epg"', texto, count=1
+    )
+    texto = re.sub(r'\s*generator-info-url="[^"]*"', "", texto, count=1)
+    return texto
+
+
+def refrescar_epg():
+    """Actualiza el espejo de la guía y devuelve la URL para la cabecera.
+
+    Cómo trata al origen:
+      * Puerta por tiempo: como máximo 1 intento cada EPG_INTERVALO_HORAS.
+      * Petición condicional (If-None-Match / If-Modified-Since): si la guía no
+        ha cambiado, el servidor responde 304 y no viaja NINGÚN byte.
+      * User-Agent de navegador corriente: el script no se anuncia a sí mismo.
+
+    Y cómo se protege a sí mismo: si la red falla, si el origen responde basura
+    o si el fichero baja de tamaño, se conserva el espejo de la última vez que
+    estuvo sano. Nunca se pisa un espejo válido con una respuesta dudosa."""
+    espejo = os.path.join(*EPG_RUTA.split("/"))
+    hay_espejo = os.path.exists(espejo)
+    url_espejo = _url_publica(EPG_RUTA)
+    por_defecto = url_espejo if url_espejo else EPG_URL
+
+    informe = _leer_informe_epg()
+    anterior = informe.get("comprobada_en", "")
+    try:
+        hace = (
+            datetime.now(timezone.utc)
+            - datetime.strptime(anterior, "%Y-%m-%dT%H:%M:%SZ").replace(
+                tzinfo=timezone.utc
+            )
+        ).total_seconds() / 3600
+    except ValueError:
+        hace = None
+
+    print()
+    if hace is not None and hace < EPG_INTERVALO_HORAS:
+        print(
+            f"EPG: espejo reciente ({hace:.1f} h < {EPG_INTERVALO_HORAS:g} h); "
+            "el origen no se toca"
+        )
+        return por_defecto if hay_espejo else EPG_URL
+
+    cabeceras = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+        ),
+        "Accept": "text/xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Encoding": "identity",
+    }
+    if informe.get("etag"):
+        cabeceras["If-None-Match"] = informe["etag"]
+    if informe.get("ultima_modificacion"):
+        cabeceras["If-Modified-Since"] = informe["ultima_modificacion"]
+
+    try:
+        respuesta = requests.get(
+            EPG_URL, headers=cabeceras, timeout=120, stream=True
+        )
+    except requests.RequestException as error:
+        print(
+            f"EPG: aviso, sin respuesta del origen ({type(error).__name__}); "
+            + ("sigo con el espejo" if hay_espejo else "uso el origen")
+        )
+        return por_defecto if hay_espejo else EPG_URL
+
+    if respuesta.status_code == 304:
+        respuesta.close()
+        informe["comprobada_en"] = _fecha_utc()
+        os.makedirs(os.path.dirname(EPG_INFORME), exist_ok=True)
+        with open(EPG_INFORME, "w", encoding="utf-8") as archivo:
+            json.dump(informe, archivo, indent=2, ensure_ascii=False)
+        print("EPG: 304 (sin cambios); espejo intacto, 0 bytes descargados")
+        return por_defecto if hay_espejo else EPG_URL
+
+    def conservar(mensaje):
+        print(f"EPG: {mensaje}; " + ("espejo conservado" if hay_espejo else "uso el origen"))
+        respuesta.close()
+        return por_defecto if hay_espejo else EPG_URL
+
+    if respuesta.status_code != 200:
+        return conservar(f"HTTP {respuesta.status_code}")
+
+    trozos = []
+    total = 0
+    for trozo in respuesta.iter_content(1_000_000):
+        total += len(trozo)
+        if total > EPG_MAX_BYTES:
+            return conservar(f"supera el tope de {EPG_MAX_BYTES // 1_000_000} MB")
+        trozos.append(trozo)
+    respuesta.close()
+
+    crudo = b"".join(trozos)
+    try:
+        texto = crudo.decode("utf-8")
+    except UnicodeDecodeError as error:
+        return conservar(f"no es UTF-8 ({error})")
+
+    if not _guia_es_valida(texto):
+        return conservar("respuesta descartada (no parece XMLTV)")
+
+    if EPG_OMITIR_GENERADOR:
+        texto = _neutralizar_generador(texto)
+        crudo = texto.encode("utf-8")
+
+    # mtime=0 => gzip determinista: si el contenido no cambia, los bytes tampoco
+    # y el repo no acumula una versión nueva cada dos horas.
+    comprimido = gzip.compress(crudo, compresslevel=6, mtime=0)
+
+    previo = b""
+    if hay_espejo:
+        with open(espejo, "rb") as archivo:
+            previo = archivo.read()
+
+    os.makedirs(os.path.dirname(EPG_RUTA), exist_ok=True)
+    if comprimido != previo:
+        with open(espejo, "wb") as archivo:
+            archivo.write(comprimido)
+        print(
+            f"EPG: espejo actualizado: {total / 1_000_000:.1f} MB del origen "
+            f"-> {len(comprimido) / 1_000_000:.2f} MB en {EPG_RUTA}"
+        )
+    else:
+        print("EPG: el contenido no ha cambiado; no reescribo el espejo")
+
+    with open(EPG_INFORME, "w", encoding="utf-8") as archivo:
+        json.dump(
+            {
+                "comprobada_en": _fecha_utc(),
+                "actualizada_en": informe.get("actualizada_en") or _fecha_utc(),
+                "origen": EPG_URL,
+                "etag": respuesta.headers.get("ETag", ""),
+                "ultima_modificacion": respuesta.headers.get("Last-Modified", ""),
+                "bytes_origen": total,
+                "bytes_espejo": len(comprimido),
+                "canales": texto.count("<programme"),
+            },
+            archivo,
+            indent=2,
+            ensure_ascii=False,
+        )
+        archivo.write("\n")
+    return url_espejo if url_espejo else EPG_URL
+
+
+url_epg = refrescar_epg()
+
+# Ambas formas de la etiqueta: unas apps leen url-tvg y otras x-tvg-url.
+cabecera = f'#EXTM3U url-tvg="{url_epg}" x-tvg-url="{url_epg}"'
 
 # Los canales de grupos protegidos (movistar deportes playready) van a
 # una lista aparte para escribirlos los PRIMEROS en lista.m3u.
@@ -801,5 +1013,6 @@ print(f"MD5: {md5}")
 print(f"lista.m3u (maestra): {sum(contador.values())} canales")
 print(f"lista-ios.m3u: {len(bloques_ios)} canales")
 print(f"lista-android-pc.m3u: {len(bloques_android_pc)} canales")
+print(f"EPG para las apps: {url_epg}")
 print("Listas creadas correctamente")
 print("=" * 60)
