@@ -1,0 +1,10 @@
+{
+  "comprobada_en": "2026-10-26T19:08:37Z",
+  "actualizada_en": "2026-10-26T19:08:37Z",
+  "origen": "http://143.47.50.252:5000/getEPG",
+  "etag": "\"1793037607.2534966-55135956-3892513982\"",
+  "ultima_modificacion": "Mon, 26 Oct 2026 18:00:07 GMT",
+  "bytes_origen": 55135956,
+  "bytes_espejo": 6013729,
+  "canales": 101223
+}

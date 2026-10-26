@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://143.47.50.252:5000/getEPG"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/ujuah22/walolo/main/epg/epg.xml.gz" x-tvg-url="https://raw.githubusercontent.com/ujuah22/walolo/main/epg/epg.xml.gz"
 #EXTINF:-1 tvg-id="Movistar Plus" tvg-name="Movistar Plus" group-title="00 ⭐ Movistar Deportes Playready" tvg-logo="https://estatico.emisiondof6.com/recorte/m-DPBLAN/sammos/MPLUS", Movistar Plus.
 #KODIPROP:inputstream.adaptive.license_type=playready
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 7.0) AppleWebKit/537.36
