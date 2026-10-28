@@ -1,9 +1,9 @@
 {
-  "comprobada_en": "2026-10-27T22:23:13Z",
+  "comprobada_en": "2026-10-28T04:28:18Z",
   "actualizada_en": "2026-10-26T19:08:37Z",
   "origen": "http://143.47.50.252:5000/getEPG",
-  "etag": "\"1793134806.707564-55032481-3892513982\"",
-  "ultima_modificacion": "Tue, 27 Oct 2026 21:00:06 GMT",
+  "etag": "\"1793149206.866427-55032481-3892513982\"",
+  "ultima_modificacion": "Wed, 28 Oct 2026 01:00:06 GMT",
   "bytes_origen": 55032481,
   "bytes_espejo": 6044561,
   "canales": 100015
