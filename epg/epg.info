@@ -1,10 +1,10 @@
 {
-  "comprobada_en": "2026-11-12T06:50:35Z",
+  "comprobada_en": "2026-11-12T14:41:28Z",
   "actualizada_en": "2026-10-26T19:08:37Z",
   "origen": "http://143.47.50.252:5000/getEPG",
-  "etag": "\"1794459607.5710058-52984903-3892513982\"",
-  "ultima_modificacion": "Thu, 12 Nov 2026 05:00:07 GMT",
-  "bytes_origen": 52984903,
-  "bytes_espejo": 5747582,
-  "canales": 94885
+  "etag": "\"1794488406.6369927-53068188-3892513982\"",
+  "ultima_modificacion": "Thu, 12 Nov 2026 13:00:06 GMT",
+  "bytes_origen": 53068188,
+  "bytes_espejo": 5738269,
+  "canales": 94673
 }
