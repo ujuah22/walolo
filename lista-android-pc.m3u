@@ -1540,9 +1540,9 @@ https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8
 #EXTINF:-1 tvg-name="La 2 (Canarias)" tvg-logo="https://i.imgur.com/DmuTwDw.png" tvg-id="La2Canarias.es" tvg-chno="21" tvg-country="ES" group-title="01 📺 Generalistas",La 2 (Canarias)
 https://ztnr.rtve.es/ztnr/5468585.m3u8
 # Playlist generata da Rakuten TV Player
-# Data: 21/09/2026, 11:44:25
+# Data: 10/11/2026, 01:20:42
 # Nazione: ES
-# Totale canali: 125
+# Totale canali: 127
 #EXTINF:-1,Golf | PGA Tour Champions Golf Mitsubishi Electric Championship at Hualalai group-title="02 ⚽ Fútbol", Second Round (00:00)
 https://easyproxy-latest-9tiz.onrender.com/proxy/manifest.m3u8?url=https%3A%2F%2Fdlive.sx%2Fwatch.php%3Fid%3D318
 #EXTINF:-1 group-title="99 📦 Otros",Cycling | Tour Down Under | Stage 4 Men | Brighton – Willunga Hill (176km) (00:30)
